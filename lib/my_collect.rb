@@ -9,8 +9,6 @@ def my_collect(collection)
 end
 
 my_collect(collection) do |element| 
-  if element.find(" ") 
-    puts element.upcase
-  elsif element.find(" ")
+  
     
   
