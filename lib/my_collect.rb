@@ -5,7 +5,7 @@ def my_collect(collection)
     new_collection.push yield (collection[i])
     i += 1
   end
-  collection
+  new_collection
 end
 
 my_collect(array) { |element| element.split(" ").first }
