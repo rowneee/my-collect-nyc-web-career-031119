@@ -8,7 +8,7 @@ def my_collect(array)
   new_collection
 end
 
-my_collect(array) { |element| element.split(" ").first }
+my_collect(list) { |x| x.split(" ").first }
   
     
   
